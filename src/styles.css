@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+.container h1{
+  font-size :         14em;
+}
+.container h2{
+  font-size :         1.5em;
+  line-height :       1em;
+  letter-spacing :    0.01em;
+}
+.list-group{
+
+}
+  .list-group li{
+    list-style:    none;
+    padding :       1em;
+  }
+
+    .item-body{
+
+    }
+      .item-body p{
+        font-size :       0.9em;
+        letter-spacing :  0.02em;
+        text-align :      justify;
+      }
+
+    .item-header{
+
+    }
+      span.date{
+        font-size:     0.65em;
+      }
+
+    .item-actions button{
+      margin-right :    1em;
+    }

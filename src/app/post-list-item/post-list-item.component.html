@@ -1,0 +1,22 @@
+<li [ngClass]="{ 'list-group-item': loveIts === 0,
+                 'list-group-item-danger': loveIts < 0,
+                 'list-group-item-success': loveIts > 0 }">
+  <div class="item-header">
+    <h2>{{ title | uppercase }}</h2>
+    <span class="date">
+      {{ createdAt | date }}
+    </span>
+  </div>
+  <div class="item-body">
+    <p>{{ content | slice:0:200 }}...</p>
+  </div>
+  <div class="item-actions">
+    <button type="button"
+            class="btn btn-success"
+            (click)="upVote()">Upvote</button> 
+    <button type="button"
+            class="btn btn-danger"
+            (click)="downVote()">Downvote</button>
+    <span class="love-its">{{ loveIts }}</span>
+  </div>
+</li>
