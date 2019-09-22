@@ -9,19 +9,19 @@ export class AppComponent {
   posts = [
     {
       title: "Notre top des chats trilingues - le quatrième va vous impressionner",
-      content: "Nam sole orto magnitudine angusti gurgitis sed profundi a transitu arcebantur et dum piscatorios quaerunt lenunculos vel innare temere contextis cratibus parant, effusae legiones, quae hiemabant tunc apud Siden, isdem impetu occurrere veloci. et signis prope ripam locatis ad manus comminus conserendas denseta scutorum conpage semet scientissime praestruebant, ausos quoque aliquos fiducia nandi vel cavatis arborum truncis amnem permeare latenter facillime trucidarunt.",
+      content: "Ces chats sont si mignons que vos yeux vont saigner. Non, réellement, ne cliquez pas sur ce lien, sauf si vous avez une soirée Halloween de prévu et que la vue n'est pas quelque chose d'important pour vous. Il est vrai que cela vous permettra notamment de ne plus voir votre oncle raciste et aux mains baladeuses - bien que sur ce dernier point, nous conseillons l'utilisation d'un piege à loups afin de pallier à votre manque sensoriel, qui fera dans le cas contraire les bonnes affaires de votre oncle libidineux.",
       loveIts: 0,
       createdAt: new Date('September 18, 2018 8:35:00')
     },
     {
-      title: "Comment un navet a fait le tour du monde...",
-      content: "Et olim licet otiosae sint tribus pacataeque centuriae et nulla suffragiorum certamina set Pompiliani redierit securitas temporis, per omnes tamen quotquot sunt partes terrarum, ut domina suscipitur et regina et ubique patrum reverenda cum auctoritate canities populique Romani nomen circumspectum et verecundum.",
+      title: "Cette astuce de grand-mère rend dingue tous les dentistes",
+      content: "Effectivement, mamie n'a plus de dents. Cela lui permet d'assurer une hygiène dentaire impeccable. 'Zéro carie, zéro rage de dent, et jamais besoin de fil dentaire', c'est le bilan de Georgette en 15 ans d'activité non-dentaire. 'Les dents, j'arrête, ça me fait plus marrer', avait-elle déclaré en Juin au monde Diplomatique dans le cadre d'un dossier spécial sur les Kurdes. Hors-sujet mais perspicace.",
       loveIts: -1,
       createdAt: new Date('December 17, 2019 15:24:00')
     },
     {
       title: "Patrick Balkany déclare : 'Balek, je suis pas vieux, osef !'",
-      content: "Batnae municipium in Anthemusia conditum Macedonum manu priscorum ab Euphrate flumine brevi spatio disparatur, refertum mercatoribus opulentis, ubi annua sollemnitate prope Septembris initium mensis ad nundinas magna promiscuae fortunae convenit multitudo ad commercanda quae Indi mittunt et Seres aliaque plurima vehi terra marique consueta.",
+      content: "Dernier revers dans l'affaire Balkany. D'après l'avocat de Patrick Balkany, 'Il s'agit d'une masquarade, on essaie de faire croire au public que mon client est âgé. Hors, il écoute du Maître Gims comme tout le monde.'. Appelé à la barre des témoins, M. Balkany s'est fendu d'un 'ouaich, juge', tout en roulant 'un gros t'as vu' (propos rapportés par le greffe du Tribunal de Grand Instance)",
       loveIts: 2,
       createdAt: new Date('September 14, 2019 14:10:00')
     },

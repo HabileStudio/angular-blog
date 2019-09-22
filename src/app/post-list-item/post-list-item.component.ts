@@ -11,6 +11,8 @@ export class PostListItemComponent implements OnInit {
   @Input() content: string
   @Input() loveIts: number
   @Input() createdAt: Date
+  
+  expanded: boolean = false
 
   constructor() { }
 
@@ -20,6 +22,10 @@ export class PostListItemComponent implements OnInit {
 
   downVote(){
     this.loveIts--
+  }
+
+  toggle(){
+    this.expanded = !this.expanded
   }
 
   ngOnInit() {

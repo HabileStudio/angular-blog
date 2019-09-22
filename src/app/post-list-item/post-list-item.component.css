@@ -1,0 +1,14 @@
+li.list-group-item:hover{
+  transform: scale(1.1);
+  transition : all 300ms ease-out;
+  z-index : 99999;
+  box-shadow: 0 0 0px 5px rgba(0,0,0,0.2)
+}
+  li.list-group-item p{
+    cursor: pointer;
+  }
+
+  li.list-group-item:hover p{
+    color :       #0090cc;
+    transition :  all 300ms ease-in;
+  }
